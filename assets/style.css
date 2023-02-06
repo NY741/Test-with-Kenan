@@ -1,0 +1,60 @@
+
+.container {
+    margin: 0 auto;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #CCC;
+    border-radius: 10px;
+    background-color: #EEFFFF;
+    padding: 15px;
+    width: 50%;
+}
+
+.form {
+    margin-bottom: 30px;
+}
+
+input, button {
+    padding: 3px;
+}
+
+input[type=text] {
+    min-width: 250px;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+#result {
+    margin-bottom: 50px;
+}
+
+.button {
+    border: 1px solid #000;
+    background-color: #66F;
+}
+
+.li {
+    padding: 5px 10px;
+    background-color: #DEF;
+    border: 1px solid brown;
+    margin: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    z-index: 5;
+}
+
+.li:active {
+    background-color: #333;
+}
+
+.btn {
+    margin-left: 10px;
+}
